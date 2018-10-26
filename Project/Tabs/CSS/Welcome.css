@@ -12,6 +12,7 @@ body{
     text-decoration: none;
     background-color:black;
 }
+::selection
 .disable-select {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
