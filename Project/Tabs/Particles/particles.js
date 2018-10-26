@@ -20,20 +20,20 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 4000,
         density: {
           enable: true,
           value_area: 800
         }
       },
       color: {
-        value: '#fff'
+        value: '#ffffff'
       },
       shape: {
-        type: 'circle',
+        type: 'triangle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#ffffff'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: 'white',
         opacity: 1,
         width: 1
       },
@@ -108,7 +108,7 @@ var pJS = function(tag_id, params){
           }
         },
         bubble:{
-          distance: 200,
+          distance: 20,
           size: 80,
           duration: 0.4
         },
@@ -117,7 +117,7 @@ var pJS = function(tag_id, params){
           duration: 0.4
         },
         push:{
-          particles_nb: 4
+          particles_nb: 2
         },
         remove:{
           particles_nb: 2
