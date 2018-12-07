@@ -3,6 +3,12 @@ body{
     margin: 0;
     padding: 0;
 }
+/*
+.grid_parent{
+    display:grid;
+    grid-template-columns: repeat(1fr,1fr);
+}
+*/
 A{ text-decoration: none}
 a:link {
     color: black; 
@@ -92,6 +98,7 @@ h2{
     font-size: 25px;
     margin: 20px;
     text-align: left;
+    float:left;
     font-family: Raleway, sans-serif;
     font-style: normal; 
 }
@@ -99,7 +106,7 @@ h2{
 p{
     color:black;
     background-color: white;
-    width:30%;
+    width:60%;
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-size: 16px;
