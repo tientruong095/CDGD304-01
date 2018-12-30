@@ -3,12 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
-/*
 .grid_parent{
     display:grid;
     grid-template-columns: repeat(1fr,1fr);
 }
-*/
 A{ text-decoration: none}
 a:link {
     color: black; 
@@ -28,8 +26,8 @@ a:hover {
 }
 
 a:active {
-    color: black;
-    background-color: black;
+    color: white;
+    background-color: white;
     text-decoration: underline;
 }
 a:any-link { 
@@ -80,18 +78,23 @@ nav a:hover:before{
     float: left;
 }
 .right{
+    width:36em;
+    max-width: 100%;
     text-align: left;
     float: left;
     margin: 20px;
     padding: 0px;
+    line-height: 30px
+
+
 }
-    
+
 h1 {
     font-family: Chonburi;
     font-size: 50px;
     color: black;
     background-color: white;
-    
+
 }
 h2{
     color:black;
@@ -106,19 +109,16 @@ h2{
 p{
     color:black;
     background-color: white;
-    width:60%;
+    width:36em;
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 200%;
     text-align: left;
     margin-left: 40px;
 
 }
 
-h3{
-    
-}
 @keyframes in{
     0%{
         width: 0;
